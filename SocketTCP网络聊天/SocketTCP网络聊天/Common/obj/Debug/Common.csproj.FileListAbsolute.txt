@@ -1,0 +1,11 @@
+D:\C#代码\SocketTCP网络游戏\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\C#代码\SocketTCP网络游戏\Common\bin\Debug\Common.dll
+D:\C#代码\SocketTCP网络游戏\Common\bin\Debug\Common.pdb
+D:\C#代码\SocketTCP网络游戏\Common\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\C#代码\SocketTCP网络游戏\Common\obj\Debug\Common.dll
+D:\C#代码\SocketTCP网络游戏\Common\obj\Debug\Common.pdb
+D:\C#代码\SocketTCP网络聊天\Common\bin\Debug\Common.dll
+D:\C#代码\SocketTCP网络聊天\Common\bin\Debug\Common.pdb
+D:\C#代码\SocketTCP网络聊天\Common\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\C#代码\SocketTCP网络聊天\Common\obj\Debug\Common.dll
+D:\C#代码\SocketTCP网络聊天\Common\obj\Debug\Common.pdb

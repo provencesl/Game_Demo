@@ -1,0 +1,6 @@
+D:\C#代码\SocketTCP网络游戏\数据库操作\bin\Debug\数据库操作.exe.config
+D:\C#代码\SocketTCP网络游戏\数据库操作\bin\Debug\数据库操作.exe
+D:\C#代码\SocketTCP网络游戏\数据库操作\bin\Debug\数据库操作.pdb
+D:\C#代码\SocketTCP网络游戏\数据库操作\obj\Debug\数据库操作.csprojResolveAssemblyReference.cache
+D:\C#代码\SocketTCP网络游戏\数据库操作\obj\Debug\数据库操作.exe
+D:\C#代码\SocketTCP网络游戏\数据库操作\obj\Debug\数据库操作.pdb

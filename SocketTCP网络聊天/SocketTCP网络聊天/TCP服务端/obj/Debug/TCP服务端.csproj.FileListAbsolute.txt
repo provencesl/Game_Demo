@@ -1,0 +1,9 @@
+D:\C#代码\SocketTCP网络游戏\TCP服务端\bin\Debug\TCP服务端.exe.config
+D:\C#代码\SocketTCP网络游戏\TCP服务端\bin\Debug\TCP服务端.exe
+D:\C#代码\SocketTCP网络游戏\TCP服务端\bin\Debug\TCP服务端.pdb
+D:\C#代码\SocketTCP网络游戏\TCP服务端\obj\Debug\TCP服务端.exe
+D:\C#代码\SocketTCP网络游戏\TCP服务端\obj\Debug\TCP服务端.pdb
+D:\C#代码\SocketTCP网络游戏\TCP服务端\obj\Debug\TCP服务端.csprojResolveAssemblyReference.cache
+D:\C#代码\SocketTCP网络聊天\TCP服务端\bin\Debug\TCP服务端.exe.config
+D:\C#代码\SocketTCP网络聊天\TCP服务端\obj\Debug\TCP服务端.exe
+D:\C#代码\SocketTCP网络聊天\TCP服务端\obj\Debug\TCP服务端.pdb

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChattingServer.exe" version="1.0.0.7" publicKeyToken="4989c3b2450cebb1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChattingServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChattingServer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChattingServer.exe" size="22016">
+      <assemblyIdentity name="ChattingServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xtkCqfkjBrp/psE4q9x0RwqbehqLQDyO0hCWCP81hVM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Common.dll" size="5120">
+      <assemblyIdentity name="Common" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f4tm1dBu9sSFTpFIegCCTU4TtvucmK1rcsSg6H4jhgw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="424448">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChattingServer.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=USER-AFJICEC1OE\Administrator" issuerKeyHash="0b06c05b88d8238e8c350057285d199955248b56" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VR2nxZIrVpWvYt4lvAlaLoV5Go2MO+2oLjC0FsJUBnU=</DigestValue></Reference></SignedInfo><SignatureValue>WmiYcZpBxGZl1lYL2DYKmhNb4KFVh6a4pybCpCp8imhcWICTt/bNGZiNQuCIowbKawiYU78sin72bzTOlUCyZ1F6aAXV7QRsE+4tQzTFv51YTpbY9xIFvfbDRSEzIKupuflLyibMW4YU30JmZWKYLRo1KFwYzXsUjNDyIhQJ3DA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wcau3Q1bLJ8mE+l56qbngZbPE6AGA1Lw3p7YG91FUzVUhfM3pypPGDIdVdx5y6FA4poiB1wp19et2e5GDLC8hudwU+L7xtyfnKNhvuJfA9yO0oLjre3bNYmXPcYJXvosg43oQ54vNXO9/Y7qbZW3U584nITDm1yugUNtfjqErWE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="750654c216b4302ea8ed3b8c8d1a79852e5a09bc25de62af95562b92c5a71d55" Description="" Url=""><as:assemblyIdentity name="ChattingServer.exe" version="1.0.0.7" publicKeyToken="4989c3b2450cebb1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=USER-AFJICEC1OE\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KO5hrhO0pnOQpgCa6WzA8Z/6kOmqllKQI127HroZuvQ=</DigestValue></Reference></SignedInfo><SignatureValue>RnXnfKEFC+lfhEOxQCFo/uPpDBQ6aDlA3Acn5YKbmxe+YLQqYuDaRTz9GBu9no3kivWmVhb/eN9qZSR/OwGpahr9li/M/qWykgOF4fAM9sfO4mmX869B4t9fhB+BFl3lhQ3tSLrxRr40VSCZaqQPzGKBrvirJgr+mDOMcx5rFkc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wcau3Q1bLJ8mE+l56qbngZbPE6AGA1Lw3p7YG91FUzVUhfM3pypPGDIdVdx5y6FA4poiB1wp19et2e5GDLC8hudwU+L7xtyfnKNhvuJfA9yO0oLjre3bNYmXPcYJXvosg43oQ54vNXO9/Y7qbZW3U584nITDm1yugUNtfjqErWE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQQOd03kav5JVGwHQVQuEXyTANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoAVQBTAEUAUgAtAEEARgBKAEkAQwBFAEMAMQBPAEUAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE4MDUxNjAxMzgwN1oXDTE5MDUxNjA3MzgwN1owRTFDMEEGA1UEAx46AFUAUwBFAFIALQBBAEYASgBJAEMARQBDADEATwBFAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwcau3Q1bLJ8mE+l56qbngZbPE6AGA1Lw3p7YG91FUzVUhfM3pypPGDIdVdx5y6FA4poiB1wp19et2e5GDLC8hudwU+L7xtyfnKNhvuJfA9yO0oLjre3bNYmXPcYJXvosg43oQ54vNXO9/Y7qbZW3U584nITDm1yugUNtfjqErWECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCyeLSec++6Yd684/CI5zQEql443CpvKU1kkx2PwjtzH5AY8DWWsdvbglFVIL0EyPTBQ1RGiZZo96t0WgO1QMfaLXKI+NzzT7sFvXk/bsBIZA5Nif+B+BVpWH3QLrc9nzUT72PnrHd/kpkFEgpuoA6/Npe7iqrbmADs5m+Pgn6a7Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

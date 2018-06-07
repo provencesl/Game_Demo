@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP服务端", "TCP服务端\TCP服务端.csproj", "{C8EB8CBB-4FFB-45D7-91DE-F2C43F7DB55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP客户端", "TCP客户端\TCP客户端.csproj", "{5D8C6701-A686-4045-A09A-B7198BBEFA3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据库操作", "数据库操作\数据库操作.csproj", "{3EFDE21F-CD72-447A-B7ED-83EBFF155DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E81E101A-5779-4778-871F-44670ABF9FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "聊天室服务端", "聊天室服务端\聊天室服务端.csproj", "{9A4A127D-D4D3-4F32-85EB-BC6777EA8146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8EB8CBB-4FFB-45D7-91DE-F2C43F7DB55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EB8CBB-4FFB-45D7-91DE-F2C43F7DB55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EB8CBB-4FFB-45D7-91DE-F2C43F7DB55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EB8CBB-4FFB-45D7-91DE-F2C43F7DB55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8C6701-A686-4045-A09A-B7198BBEFA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8C6701-A686-4045-A09A-B7198BBEFA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8C6701-A686-4045-A09A-B7198BBEFA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8C6701-A686-4045-A09A-B7198BBEFA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFDE21F-CD72-447A-B7ED-83EBFF155DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFDE21F-CD72-447A-B7ED-83EBFF155DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFDE21F-CD72-447A-B7ED-83EBFF155DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFDE21F-CD72-447A-B7ED-83EBFF155DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81E101A-5779-4778-871F-44670ABF9FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81E101A-5779-4778-871F-44670ABF9FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81E101A-5779-4778-871F-44670ABF9FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81E101A-5779-4778-871F-44670ABF9FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4A127D-D4D3-4F32-85EB-BC6777EA8146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4A127D-D4D3-4F32-85EB-BC6777EA8146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4A127D-D4D3-4F32-85EB-BC6777EA8146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4A127D-D4D3-4F32-85EB-BC6777EA8146}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

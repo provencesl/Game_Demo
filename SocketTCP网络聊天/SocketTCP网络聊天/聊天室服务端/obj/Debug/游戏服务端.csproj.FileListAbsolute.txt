@@ -1,0 +1,20 @@
+D:\C#代码\SocketTCP网络游戏\游戏服务端\obj\Debug\游戏服务端.csprojResolveAssemblyReference.cache
+D:\C#代码\SocketTCP网络游戏\游戏服务端\bin\Debug\GameServer.exe.config
+D:\C#代码\SocketTCP网络游戏\游戏服务端\bin\Debug\GameServer.exe
+D:\C#代码\SocketTCP网络游戏\游戏服务端\bin\Debug\GameServer.pdb
+D:\C#代码\SocketTCP网络游戏\游戏服务端\bin\Debug\Common.dll
+D:\C#代码\SocketTCP网络游戏\游戏服务端\bin\Debug\Common.pdb
+D:\C#代码\SocketTCP网络游戏\游戏服务端\obj\Debug\GameServer.exe
+D:\C#代码\SocketTCP网络游戏\游戏服务端\obj\Debug\GameServer.pdb
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\bin\Debug\GameServer.exe.config
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\obj\Debug\GameServer.exe
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\obj\Debug\GameServer.pdb
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\bin\Debug\GameServer.exe
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\bin\Debug\GameServer.pdb
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\bin\Debug\Common.dll
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\bin\Debug\Common.pdb
+D:\C#代码\SocketTCP网络游戏 - 副本\游戏服务端\obj\Debug\游戏服务端.csprojResolveAssemblyReference.cache
+D:\C#代码\SocketTCP网络聊天\游戏服务端\bin\Debug\GameServer.exe.config
+D:\C#代码\SocketTCP网络聊天\游戏服务端\obj\Debug\GameServer.exe
+D:\C#代码\SocketTCP网络聊天\游戏服务端\obj\Debug\GameServer.pdb
+D:\C#代码\SocketTCP网络聊天\游戏服务端\bin\Debug\ChattingServer.exe.config

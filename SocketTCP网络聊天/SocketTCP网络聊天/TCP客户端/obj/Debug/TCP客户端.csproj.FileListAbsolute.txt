@@ -1,0 +1,6 @@
+D:\C#代码\SocketTCP网络游戏\TCP客户端\bin\Debug\TCP客户端.exe.config
+D:\C#代码\SocketTCP网络游戏\TCP客户端\bin\Debug\TCP客户端.exe
+D:\C#代码\SocketTCP网络游戏\TCP客户端\bin\Debug\TCP客户端.pdb
+D:\C#代码\SocketTCP网络游戏\TCP客户端\obj\Debug\TCP客户端.exe
+D:\C#代码\SocketTCP网络游戏\TCP客户端\obj\Debug\TCP客户端.pdb
+D:\C#代码\SocketTCP网络游戏\TCP客户端\obj\Debug\TCP客户端.csprojResolveAssemblyReference.cache
